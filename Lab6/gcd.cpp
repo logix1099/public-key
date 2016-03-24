@@ -23,10 +23,10 @@ int main(int argc, char* argv[])
         b=temp;
     }
     //begin function
-    x=0;
-    y=1;
-    lastx=1;
-    lasty=0;
+    x=1;
+    y=0;
+    lastx=0;
+    lasty=1;
     while (b!=0) {
         q= a/b;
         temp1= a%b;
